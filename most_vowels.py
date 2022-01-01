@@ -1,5 +1,5 @@
 def most_vowels(sentence):
-    currentWord = ["", 0]
+    currentWord = ["", 0] #string that has most vowels, amount of vowels inside word
     for s in sentence.split():
         vowels = 0
         for i in s:
