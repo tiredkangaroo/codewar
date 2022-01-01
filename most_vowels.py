@@ -3,7 +3,7 @@ def most_vowels(sentence):
     for s in sentence.split():
         vowels = 0
         for i in s:
-            if i in ["a", "e", "i", "o", "u"]:
+            if i in "aeiou":
                 vowels += 1
         if vowels > currentWord[1]:
             currentWord = [s, vowels]
